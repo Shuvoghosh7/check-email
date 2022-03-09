@@ -1,0 +1,14 @@
+.input-field{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#check-valid{
+    color: green;
+    display: none;
+}
+#check-invalid{
+    color:red;
+    display: none;
+}

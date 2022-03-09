@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input-field{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+        #check-valid{
+            color: green;
+            display: none;
+        }
+        #check-invalid{
+            color:red;
+            display: none;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>check for valid Email</h1>
+    <div class="input-field">
+        <input type="text" placeholder="Enter Your Email" id="input-field">
+        <p id="check-valid">Valid email address!</p>
+        <p id="check-invalid">You have entered an invalid email address!</p>
+        <br>
+        <input type="password" name="" id="" placeholder="Enter Your valid Password"><br><br>
+
+        <button onclick="submitEmail()" >Submit</button>
+    </div>
+
+    <script src="./email.js"></script>
+</body>
+</html>
